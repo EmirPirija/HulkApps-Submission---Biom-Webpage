@@ -13,18 +13,15 @@ I approached this project with a focus on simplicity and user experience, utiliz
 
 Dependencies Used:
 
-@testing-library/jest-dom: Version 5.17.0
-@testing-library/react: Version 13.4.0
-@testing-library/user-event: Version 13.5.0
-antd: Version 5.9.4
-bootstrap: Version 5.3.2
-react-bootstrap: Version 2.9.0
-react-bootstrap-carousel: Version 4.1.1
-react-dom: Version 18.2.0
-react-responsive: Version 9.0.2
-react-scripts: Version 5.0.1
-react-scroll: Version 1.8.9
-sass: Version 1.68.0
+-antd: Version 5.9.4
+-bootstrap: Version 5.3.2
+-react-bootstrap: Version 2.9.0
+-react-bootstrap-carousel: Version 4.1.1
+-react-dom: Version 18.2.0
+-react-responsive: Version 9.0.2
+-react-scripts: Version 5.0.1
+-react-scroll: Version 1.8.9
+-sass: Version 1.68.0
 
 
 What I Liked:
