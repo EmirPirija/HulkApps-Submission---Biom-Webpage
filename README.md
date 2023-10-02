@@ -4,7 +4,7 @@
 
 React (version 18.2.0)
 HTML
-CSS (Sass version 1.68.0)
+CSS
 JavaScript
 Netlify for hosting (link: https://web-biom.netlify.app/)
 
