@@ -46,7 +46,8 @@ The estimated time to complete this project was 5 days with approximately 4 hour
 - Enhanced User Experience with React Bootstrap Pop-Up Windows: As part of the planned improvements, I also intend to implement pop-up windows using React Bootstrap for each button. This feature will provide a more interactive and user-friendly experience, enhancing the overall functionality and aesthetics of the webpage.
 
 5. Enhancements and Modifications:
-   
+
+- Loading animation using React Hooks to let the user know the current state of the webpage
 - Buttons Interaction: Buttons are now active both on hover and click, providing a more engaging and responsive user experience, and ofcourse they lead to a specific part of the page linked to that button.
 - Social Media Icons: Social media icons react on hover, offering a visual response to user interactions.
 - Text Animations: Specific text elements in the header and footer sections feature a subtle pulse animation on hover, adding a touch of interactivity and engagement.
