@@ -1,0 +1,102 @@
+.dynrec {
+  /* Layout Properties */
+  top: 2441px;
+  left: 0px;
+  width: 1440px;
+  height: 450px;
+  /* UI Properties */
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: 201;
+}
+
+.response-title {
+  /* Layout Properties */
+  top: 2515px;
+  left: 610px;
+  width: 238px;
+  height: 20px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 14px/62px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2.1px;
+  color: #002d33;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 202;
+}
+
+.response1 {
+  /* Layout Properties */
+  top: 2568px;
+  left: 347px;
+  width: 800px;
+  height: 156px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal bold 23px/42px Chronicle Display;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+  z-index: 202;
+  transition: opacity 0.5s;
+}
+
+.author {
+  /* Layout Properties */
+  top: 2759px;
+  left: 672px;
+  width: 100px;
+  height: 19px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal normal 13px/62px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.3px;
+  color: #002d33;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 202;
+}
+
+.slide {
+  display: none;
+  transition: opacity 0.5s;
+}
+
+.slide.active {
+  display: block;
+  transition: opacity 0.5s;
+
+}
+
+.dots {
+  top: 2828px;
+  left: 695px;
+  position: absolute;
+  text-align: center;
+  margin-top: 10px;
+  z-index: 202;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #333;
+}

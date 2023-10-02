@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(232, 232, 232);
+}
+
+.container {
+  height: 100vh; /* Adjust the height to center vertically within the desired container */
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  /* Layout Properties */
+  max-width: 1440px; /* Use max-width for responsive design */
+  min-height: 5632px; /* Use min-height for a minimum height requirement */
+  margin: auto; /* Center horizontally */
+  position: relative; /* Set to relative to position child elements */
+  /* UI Properties */
+  opacity: 1; /* Opacity is 1 by default, no need to specify */
+  background-color: #ffffff; /*  hexadecimal color value */
+
+  /* Add overflow property to hide the part of the image outside the container */
+  overflow: hidden;
+}

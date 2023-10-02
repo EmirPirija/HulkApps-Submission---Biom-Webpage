@@ -1,0 +1,114 @@
+/* Styling for the main heading element */
+.mainHeading {
+  /* Layout Properties */
+  top: 230px; /* Position from the top of the parent container */
+  left: 110px; /* Position from the left of the parent container */
+  width: 237px; /* Width of the element */
+  height: 129px; /* Height of the element */
+  position: absolute; /* Position it absolutely within its container */
+  z-index: 10;
+
+  /* UI Properties */
+  text-align: left; /* Text alignment */
+  font: normal normal 900 56px/62px Chronicle Display; /* Font styling */
+  letter-spacing: 0px; /* Spacing between letters */
+  color: #fffafa; /* Text color */
+  opacity: 1; /* Opacity (fully opaque) */
+}
+
+/* Styling for the text in the kitchen section */
+.textKitchen {
+  /* Layout Properties */
+  top: 370px; /* Position from the top of the parent container */
+  left: 110px; /* Position from the left of the parent container */
+  width: 470px; /* Width of the element */
+  height: 113px; /* Height of the element */
+  position: absolute; /* Position it absolutely within its container */
+  z-index: 10;
+
+  /* UI Properties */
+  text-align: left; /* Text alignment */
+  font: normal normal normal 20px/28px Brandon Grotesque; /* Font styling */
+  font-family: "Cabin", sans-serif; /* Font family */
+  letter-spacing: 0px; /* Spacing between letters */
+  color: #fffafa; /* Text color */
+  opacity: 1; /* Opacity (fully opaque) */
+}
+
+/* Styling for the kitchen image */
+.kitchenImage {
+  /* Layout Properties */
+  top: 68px; /* Position from the top of the parent container */
+  left: 25px; /* Position from the left of the parent container */
+  width: 1390px; /* Width of the element */
+  height: 675px; /* Height of the element */
+  position: absolute; /* Position it absolutely within its container */
+  z-index: 10;
+
+  /* UI Properties */
+  border-radius: 14px; /* Rounded corners */
+  opacity: 1; /* Opacity (fully opaque) */
+}
+
+/* Styling for the intro-button element */
+.intro-button {
+  /* Layout Properties */
+  top: 510px; /* Position from the top of the parent container */
+  left: 110px; /* Position from the left of the parent container */
+  position: relative; /* Position it relative to its normal position */
+  background-color: rgb(255, 255, 255); /* Background color */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color */
+  padding: 0.8em 1.8em; /* Padding inside the intro-button */
+  cursor: pointer; /* Cursor style */
+  user-select: none; /* User cannot select the text */
+  text-align: center; /* Text alignment */
+  text-decoration: none; /* No underlines for links */
+  cursor: pointer; /* Cursor style (repeated) */
+  transition-duration: 0.4s; /* Transition duration for smooth effects */
+  -webkit-transition-duration: 0.4s; /* Safari-specific transition duration */
+  z-index: 10;
+
+  /* UI Properties */
+  text-align: left; /* Text alignment (repeated) */
+  font: normal normal 900 13px/30px Brandon Grotesque; /* Font styling */
+  font-family: "Cabin", sans-serif; /* Font family */
+  letter-spacing: 1.95px; /* Spacing between letters */
+  color: #004a4c; /* Text color */
+  text-transform: uppercase; /* Uppercase text */
+  opacity: 1; /* Opacity (fully opaque) */
+  position: absolute; /* Position it absolutely within its container */
+}
+
+.intro-button:hover {
+  opacity: 0.8;
+  color: white; /* Text color */
+  background-color: #004a4c;
+}
+
+/* Styling for the intro-button's hover effect */
+.intro-button:after {
+  content: ""; /* Generated content after the intro-button */
+  display: block; /* Block-level element */
+  position: absolute; /* Position it absolutely within the intro-button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the intro-button */
+  top: 0; /* Positioned from the top edge of the intro-button */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  opacity: 0; /* Initial opacity (hidden) */
+  transition: all 0.5s; /* Transition effect for the hover effect */
+  box-shadow: 0 0 10px 40px white; /* Box shadow effect */
+}
+
+/* Styling for the intro-button's active (clicked) state */
+.intro-button:active:after {
+  box-shadow: 0 0 0 0 white; /* Remove box shadow when intro-button is clicked */
+  position: absolute; /* Position it absolutely within the intro-button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the intro-button */
+  top: 0; /* Positioned from the top edge of the intro-button */
+  opacity: 1; /* Full opacity (visible) */
+  transition: 0s; /* No transition for the active state */
+}

@@ -1,0 +1,219 @@
+.image-meet {
+  /* Layout Properties */
+  top: 742px;
+  left: 0px;
+  width: 1440px;
+  height: 730px;
+  position: absolute;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.info-text-h1 {
+  /* Layout Properties */
+  top: 830px;
+  left: 735px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/62px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2.1px;
+  color: #002d33;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.info-text-h2 {
+  /* Layout Properties */
+  top: 870px;
+  left: 735px;
+  width: 565px;
+  height: 44px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 36px/62px Chronicle Display;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.info-text-p {
+  /* Layout Properties */
+  top: 929px;
+  left: 735px;
+  width: 650px;
+  height: 54px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/28px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.iconbottle {
+  /* Layout Properties */
+  top: 1025px;
+  left: 735px;
+  width: 69px;
+  height: 66px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.iconcheck {
+  top: 1125px;
+  left: 735px;
+  width: 68px;
+  height: 66px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.iconbpa {
+  /* Layout Properties */
+  top: 1222px;
+  left: 735px;
+  width: 68px;
+  height: 66px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.bottletext {
+  /* Layout Properties */
+  top: 1045px;
+  left: 826px;
+  width: 290px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.verifytext {
+  /* Layout Properties */
+  top: 1143px;
+  left: 825px;
+  width: 250px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.bpatext {
+  /* Layout Properties */
+  top: 1240px;
+  left: 825px;
+  width: 160px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.vertical {
+  /* Layout Properties */
+  top: 255px;
+  left: -119px;
+  width: 1122px;
+  height: 905px;
+  position: absolute;
+  transform: matrix(0, -1, 1, 0, 0, 0);
+  /* UI Properties */
+  font: normal normal bold 175px/322px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: -5.63px;
+  color: #F2F2F2;
+  opacity: 1;
+  z-index: 1;
+}
+
+.button-info:hover {
+  opacity: 0.8;
+}
+
+/* Styling for a button element */
+.button-info {
+  /* Layout Properties */
+  top: 1338px;
+  left: 735px;
+  position: relative; /* Position it relative to its normal position */
+  background: #004a4c 0% 0% no-repeat padding-box;
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: #fffafa; /* Text color */
+  font: normal normal 900 13px/30px Brandon Grotesque;
+  letter-spacing: 1.95px;
+  padding: 0.8em 1.8em; /* Padding inside the button */
+  cursor: pointer; /* Cursor style */
+  user-select: none; /* User cannot select the text */
+  text-align: center; /* Text alignment */
+  text-decoration: none; /* No underlines for links */
+  cursor: pointer; /* Cursor style (repeated) */
+  transition-duration: 0.4s; /* Transition duration for smooth effects */
+  -webkit-transition-duration: 0.4s; /* Safari-specific transition duration */
+  z-index: 1;
+
+  /* UI Properties */
+  text-align: left; /* Text alignment (repeated) */
+  font: normal normal 900 13px/30px Brandon Grotesque; /* Font styling */
+  font-family: "Cabin", sans-serif; /* Font family */
+  letter-spacing: 1.95px; /* Spacing between letters */
+  text-transform: uppercase; /* Uppercase text */
+  opacity: 1; /* Opacity (fully opaque) */
+  position: absolute; /* Position it absolutely within its container */
+}
+
+/* Styling for the button's hover effect */
+.button-info:after {
+  content: ""; /* Generated content after the button */
+  display: block; /* Block-level element */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  opacity: 0; /* Initial opacity (hidden) */
+  transition: all 0.5s; /* Transition effect for the hover effect */
+  box-shadow: 0 0 10px 40px white; /* Box shadow effect */
+}
+
+/* Styling for the button's active (clicked) state */
+.button-info:active:after {
+  box-shadow: 0 0 0 0 #004a4c; /* Remove box shadow when button is clicked */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  opacity: 1; /* Full opacity (visible) */
+  transition: 0s; /* No transition for the active state */
+}

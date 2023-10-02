@@ -1,0 +1,219 @@
+.header {
+  width: 1440px;
+  height: 68px;
+  position: fixed;
+  z-index: 9000;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* White background with 80% opacity */
+  backdrop-filter: blur(10px);
+}
+
+.header.scrolled {
+  /* Apply styles when the header is scrolled */
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.biomlogo {
+  /* Layout Properties */
+  top: 19px;
+  left: 674px;
+  width: 92px;
+  height: 30px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  transition: opacity 0.5s ease; /* Control the speed of the fade */
+  cursor: pointer;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(-5px, 0);
+  }
+  50% {
+    transform: translate(5px, 0);
+  }
+  75% {
+    transform: translate(-5px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
+
+.biomlogo:hover {
+  animation: shake 1s both infinite;
+}
+
+.biomlogo {
+  animation: shake 1s both;
+}
+
+.shop {
+  /* Layout Properties */
+  top: 23px;
+  left: 50px;
+  width: 45px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  position: relative;
+}
+
+.wbiom {
+  top: 23px;
+  left: 135px;
+  height: 22px;
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.scents {
+  /* Layout Properties */
+  top: 23px;
+  left: 262px;
+  width: 62px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.login {
+  /* Layout Properties */
+  top: 23px;
+  left: 1198px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.cart {
+  /* Layout Properties */
+  top: 23px;
+  left: 1302px;
+  width: 42px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 15px/22px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.cartlogo {
+  top: 20px;
+  left: 1356px;
+  width: 26px;
+  height: 22px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.cartcontent {
+  /* Layout Properties */
+  top: 12px;
+  left: 1376px;
+  width: 6px;
+  height: 15px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 10px/30px;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.5px;
+  color: #fffafa;
+  opacity: 1;
+  position: absolute;
+  z-index: 5;
+}
+
+.cartntf {
+  top: 15px;
+  left: 1372px;
+  width: 16px;
+  height: 16px;
+  background: #dda74a 0% 0% no-repeat padding-box;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  opacity: 1;
+  position: absolute;
+}
+
+.shop,
+.wbiom,
+.scents,
+.login,
+.cart {
+  /* Add your existing styles here */
+
+  transition: color 0.3s ease; /* Add a color transition effect */
+}
+
+.shop:hover,
+.wbiom:hover,
+.scents:hover,
+.login:hover,
+.cart:hover {
+  opacity: 0.8;
+  animation: pulse 1s infinite; /* Adjust animation duration and type as desired */
+}
+
+.shop,
+.wbiom,
+.scents,
+.login,
+.cart {
+  animation: fadeIn 1s ease-in-out forwards;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

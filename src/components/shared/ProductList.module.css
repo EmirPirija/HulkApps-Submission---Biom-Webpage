@@ -1,0 +1,348 @@
+.imgcontainer {
+  position: relative;
+}
+
+.h1green {
+  position: absolute;
+  top: 2340px;
+  left: 420px;
+  padding: 10px;
+  opacity: 0;
+  z-index: 0;
+  visibility: hidden;
+  color: rgba(255, 255, 255, 0);
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in and fade-out */
+  font: 700 20px/44px Chronicle Display;
+}
+
+.pgreen {
+  position: absolute;
+  top: 2380px;
+  left: 420px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-in and fade-out */
+  color: rgba(255, 255, 255, 0);
+  letter-spacing: 1.95px;
+  font: normal normal 14px/30px Brandon Grotesque;
+  display: inline;
+}
+
+.h1green,
+.pgreen {
+  transition: opacity 0.5s ease-in-out; /* Smooth fade-out */
+  animation: fade-in-out 0.3s ease forwards;
+  color: black;
+}
+
+
+.imgcontainer:not(:hover) .h1green,
+.imgcontainer:not(:hover) .pgreen {
+  opacity: 0;
+  visibility: hidden;
+  animation: fade-out 0.3s ease forwards; /* You can adjust the duration and timing function */
+}
+
+@keyframes fade-in-out {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.green01 {
+  /* Layout Properties */
+  top: 2057px;
+  left: 402px;
+  width: 400px;
+  height: 400px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+  display: inline-block;
+  z-index: 200;
+}
+
+.green01 {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.green01:hover {
+  transform: translateX(80px); /* Adjust the distance you want to slide */
+}
+
+.white01 {
+  top: 2057px;
+  left: 736px;
+  width: 400px;
+  height: 400px;
+  background: transparent 0% 0% no-repeat padding-box;
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.white01 {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.white01:hover {
+  transform: translateX(80px); /* Adjust the distance you want to slide */
+}
+
+.h2white {
+  position: absolute;
+  top: 2340px;
+  left: 750px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  color: black;
+  z-index: 100;
+  font: 700 20px/44px Chronicle Display;
+}
+
+.pwhite {
+  position: absolute;
+  top: 2380px;
+  left: 750px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  color: black;
+  letter-spacing: 1.95px;
+  font: normal normal 14px/30px Brandon Grotesque; /* Font styling / font-family: "Cabin", sans-serif; / Font family */
+}
+
+.imgcontainer:hover .h2white {
+  opacity: 1;
+  visibility: visible;
+}
+
+.imgcontainer:hover .pwhite {
+  opacity: 1;
+  visibility: visible;
+}
+
+.imgcontainer .h2white,
+.imgcontainer .pwhite {
+  opacity: 1;
+  visibility: visible;
+  animation: fade-in-out 0.3s ease forwards; /* You can adjust the duration and timing function */
+}
+
+@keyframes fade-in-out {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.imgcontainer:not(:hover) .h2white,
+.imgcontainer:not(:hover) .pwhite {
+  animation: fade-out 0.3s ease forwards; /* You can adjust the duration and timing function */
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.black01 {
+  /* Layout Properties */
+  top: 2057px;
+  left: 1069px;
+  width: 400px;
+  height: 400px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  cursor: pointer;
+  z-index: 200;
+}
+
+.black01 {
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.black01:hover {
+  transform: translateX(80px); /* Adjust the distance you want to slide */
+}
+
+.h3black {
+  position: absolute;
+  top: 2340px;
+  left: 1090px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  color: black;
+  z-index: 100;
+  font: 700 20px/44px Chronicle Display;
+}
+
+.pblack {
+  position: absolute;
+  top: 2380px;
+  left: 1090px;
+  padding: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+  color: black;
+  letter-spacing: 1.95px;
+  font: normal normal 14px/30px Brandon Grotesque; /* Font styling / font-family: "Cabin", sans-serif; / Font family */
+}
+
+.imgcontainer:hover .h3black {
+  opacity: 1;
+  visibility: visible;
+}
+
+.imgcontainer:hover .pblack {
+  opacity: 1;
+  visibility: visible;
+}
+
+.imgcontainer .h3black,
+.imgcontainer .pblack {
+  opacity: 1;
+  visibility: visible;
+  animation: fade-in-out 0.3s ease forwards; /* You can adjust the duration and timing function */
+}
+
+@keyframes fade-in-out {
+  from {
+    opacity: 0;
+    visibility: hidden;
+  }
+  to {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.imgcontainer:not(:hover) .h3black,
+.imgcontainer:not(:hover) .pblack {
+  animation: fade-out 0.3s ease forwards; /* You can adjust the duration and timing function */
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    visibility: visible;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.heading {
+  top: 2117px;
+  left: 70px;
+  width: 297px;
+  height: 88px;
+  text-align: left;
+  font: normal normal 900 36px/44px Chronicle Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+}
+
+/* Styling for a button element */
+.button {
+  /* Layout Properties */
+  top: 2240px;
+  left: 69px;
+  position: relative; /* Position it relative to its normal position */
+  background: #004a4c 0% 0% no-repeat padding-box;
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: #fffafa; /* Text color */
+  font: normal normal 900 13px/30px Brandon Grotesque;
+  letter-spacing: 1.95px;
+  padding: 0.8em 1.8em; /* Padding inside the button */
+  cursor: pointer; /* Cursor style */
+  user-select: none; /* User cannot select the text */
+  text-align: center; /* Text alignment */
+  text-decoration: none; /* No underlines for links */
+  cursor: pointer; /* Cursor style (repeated) */
+  transition-duration: 0.4s; /* Transition duration for smooth effects */
+  -webkit-transition-duration: 0.4s; /* Safari-specific transition duration */
+  z-index: 1;
+
+  /* UI Properties */
+  text-align: left; /* Text alignment (repeated) */
+  font: normal normal 900 13px/30px Brandon Grotesque; /* Font styling */
+  font-family: "Cabin", sans-serif; /* Font family */
+  letter-spacing: 1.95px; /* Spacing between letters */
+  text-transform: uppercase; /* Uppercase text */
+  opacity: 1; /* Opacity (fully opaque) */
+  position: absolute; /* Position it absolutely within its container */
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+/* Styling for the button's hover effect */
+.button:after {
+  content: ""; /* Generated content after the button */
+  display: block; /* Block-level element */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  opacity: 0; /* Initial opacity (hidden) */
+  transition: all 0.5s; /* Transition effect for the hover effect */
+  box-shadow: 0 0 10px 40px white; /* Box shadow effect */
+}
+
+/* Styling for the button's active (clicked) state */
+.button:active:after {
+  box-shadow: 0 0 0 0 #004a4c; /* Remove box shadow when button is clicked */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  opacity: 1; /* Full opacity (visible) */
+  transition: 0s; /* No transition for the active state */
+}
+

@@ -1,0 +1,141 @@
+.txt-subscription-p {
+  /* Layout Properties */
+  top: 4982px;
+  left: 597px;
+  width: 199px;
+  height: 19px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 13px/62px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.3px;
+  color: #004a4c;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.subscription-rec {
+  /* Layout Properties */
+  top: 5096px;
+  left: 69px;
+  width: 1302px;
+  height: 300px;
+  /* UI Properties */
+  background: #f2f2f2 0% 0% no-repeat padding-box;
+  border-radius: 15px;
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+}
+
+.subscription-pic {
+  top: 5096px;
+  left: 69px;
+  width: 1302px;
+  height: 300px;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 14px;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.text-subscription-h1 {
+  /* Layout Properties */
+  top: 5143px;
+  left: 180px;
+  width: 324px;
+  height: 74px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 30px/38px Chronicle Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.text-subscription-p {
+  top: 5230px;
+  left: 180px;
+  width: 460px;
+  height: 49px;
+  text-align: left;
+  font: normal normal normal 16px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.text-subscription-input {
+  /* Layout Properties */
+  top: 5297px;
+  left: 180px;
+  width: 414px;
+  height: 52px;
+  /* UI Properties */
+  background: #fffafa 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  border: none;
+  font-family: "Cabin", sans-serif;
+  opacity: 1;
+  z-index: 5;
+  position: absolute;
+  padding-left: 20px;
+  color: #000000;
+}
+
+.text-subscription-input:focus {
+  /* Add a custom focus style */
+  outline: none;
+}
+
+.button-subscription {
+  /* Layout Properties */
+  top: 5304px;
+  left: 543px;
+  width: 44px;
+  height: 38px;
+  /* UI Properties */
+  border-radius: 6px;
+  background: #004a4c 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: 10;
+}
+
+.arrow {
+  /* Layout Properties */
+  top: 5317px;
+  left: 556px;
+  width: 18px;
+  height: 12px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: 11;
+  transition: transform 0.3s; /* Add a transition for the transform property */
+  cursor: pointer;
+}
+
+.arrow:hover {
+  animation: moveRightLeft 2s linear infinite; /* Start the animation on hover */
+}
+
+@keyframes moveRightLeft {
+  0%,
+  100% {
+    transform: translateX(0); /* Start and end position (no movement) */
+  }
+  50% {
+    transform: translateX(
+      8px
+    ); /* Move to the right during the middle of the animation */
+  }
+}

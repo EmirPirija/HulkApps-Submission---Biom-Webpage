@@ -1,0 +1,238 @@
+.adobestockimg {
+  top: 2981px;
+  left: 69px;
+  width: 496px;
+  height: 622px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.refill {
+  /* Layout Properties */
+  top: 3324px;
+  left: 397px;
+  width: 308px;
+  height: 373px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.heading-description {
+  /* Layout Properties */
+  top: 3107px;
+  left: 735px;
+  width: 493px;
+  height: 44px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal 900 36px/44px Chronicle Display;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+}
+
+.text-description {
+  top: 3160px;
+  left: 735px;
+  width: 595px;
+  height: 82px;
+  text-align: left;
+  font: normal normal normal 17px/28px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.envicon {
+  /* Layout Properties */
+  top: 3285px;
+  left: 781px;
+  width: 69px;
+  height: 66px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.envtext {
+  top: 3301px;
+  left: 872px;
+  width: 172px;
+  height: 26px;
+  text-align: left;
+  font: normal normal normal 18px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+}
+
+.plastfreeicon {
+  top: 3386px;
+  left: 781px;
+  width: 69px;
+  height: 66px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.textplast {
+  top: 3404px;
+  left: 872px;
+  width: 92px;
+  height: 26px;
+  text-align: left;
+  font: normal normal normal 18px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+}
+
+.planticon {
+  top: 3486px;
+  left: 781px;
+  width: 69px;
+  height: 66px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.textplant {
+  /* Layout Properties */
+  top: 3504px;
+  left: 872px;
+  width: 147px;
+  height: 26px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 18px/26px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  position: absolute;
+}
+
+.wipesbiom {
+  /* Layout Properties */
+  top: 3057px;
+  left: 735px;
+  width: 150px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/62px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2.1px;
+  color: #002d33;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+/* Styling for the button element */
+.button-description {
+  /* Layout Properties */
+  top: 3598px;
+  left: 781px;
+  width: 207px;
+  height: 50px;
+  position: relative; /* Position it relative to its normal position */
+  background-color: #004a4c; /* Background color */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color */
+  padding: 0.8em 1.8em; /* Padding inside the button */
+  cursor: pointer; /* Cursor style */
+  user-select: none; /* User cannot select the text */
+  text-align: center; /* Text alignment */
+  text-decoration: none; /* No underlines for links */
+  cursor: pointer; /* Cursor style (repeated) */
+  transition-duration: 0.4s; /* Transition duration for smooth effects */
+  -webkit-transition-duration: 0.4s; /* Safari-specific transition duration */
+  z-index: 10;
+
+  /* UI Properties */
+  text-align: center; /* Text alignment (repeated) */
+  font: normal normal 900 13px/30px Brandon Grotesque; /* Font styling */
+  font-family: "Cabin", sans-serif; /* Font family */
+  letter-spacing: 1.95px; /* Spacing between letters */
+  text-transform: uppercase; /* Uppercase text */
+  opacity: 1; /* Opacity (fully opaque) */
+  position: absolute; /* Position it absolutely within its container */
+}
+
+.button-description:hover {
+  opacity: 0.8;
+  color: white; /* Text color */
+  background-color: #004a4c;
+}
+
+/* Styling for the button's hover effect */
+.button-description:after {
+  content: ""; /* Generated content after the button */
+  display: block; /* Block-level element */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  opacity: 0; /* Initial opacity (hidden) */
+  transition: all 0.5s; /* Transition effect for the hover effect */
+  box-shadow: 0 0 10px 40px #004a4c; /* Box shadow effect */
+}
+
+/* Styling for the button's active (clicked) state */
+.button-description:active:after {
+  box-shadow: 0 0 0 0 white; /* Remove box shadow when button is clicked */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  opacity: 1; /* Full opacity (visible) */
+  transition: 0s; /* No transition for the active state */
+}
+
+.container {
+  /* Layout Properties */
+  top: 3017px;
+  left: 513px;
+  width: 858px;
+  height: 606px;
+  /* UI Properties */
+  background: #dae5e5 0% 0% no-repeat padding-box;
+  border-radius: 12px;
+  opacity: 1;
+  z-index: 0;
+  position: absolute;
+}
+
+/* Add a higher z-index to elements you want to display on top*/
+.adobestock,
+.refill,
+.heading-description,
+.text-description,
+.envicon,
+.envtext,
+.plastfreeicon,
+.textplast,
+.planticon,
+.textplant,
+.wipesbiom,
+.button-description {
+  z-index: 1; /* Set a higher value for elements that should be on top */
+  /* Existing CSS for these elements */
+}

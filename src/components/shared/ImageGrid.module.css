@@ -1,0 +1,138 @@
+.image-grid-pic1 {
+  top: 4636px;
+  left: -126px;
+  width: 250px;
+  height: 250px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.image-grid-pic2 {
+  /* Layout Properties */
+  top: 4656px;
+  left: 154px;
+  width: 270px;
+  height: 270px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.image-grid-pic3 {
+  top: 4636px;
+  left: 454px;
+  width: 250px;
+  height: 250px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.image-grid-pic4 {
+  top: 4656px;
+  left: 734px;
+  width: 270px;
+  height: 270px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.image-grid-pic5 {
+  top: 4636px;
+  left: 1034px;
+  width: 250px;
+  height: 250px;
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.image-grid-pic6 {
+  /* Layout Properties */
+  top: 4656px;
+  left: 1314px;
+  width: 270px;
+  height: 270px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.wrapper {
+  cursor: pointer;
+}
+
+.wrapper:hover {
+  animation: bounce 1.5s ease infinite; /* Use the "bounce" animation on hover */
+  opacity: 0.8;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px); /* Adjust the Y value for the desired bounce effect */
+  }
+  60% {
+    transform: translateY(-5px); /* Adjust the Y value for the desired bounce effect */
+  }
+}
+
+
+.ig-follow-button {
+  top: 4966px;
+  left: 582px;
+  width: 277px;
+  height: 50px;
+  border: 1px solid #002d33;
+  border-radius: 6px;
+  opacity: 1;
+  position: absolute;
+
+  /* UI Properties */
+  text-align: left;
+  padding-left: 12px;
+  font: normal normal 900 12px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.3px;
+  color: #004a4c;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.border {
+  top: 4966px;
+  left: 811px;
+  width: 0px;
+  height: 50px;
+  border: 1px solid #002d33;
+  opacity: 1;
+  position: absolute;
+}
+
+.icon-ig {
+  /* Layout Properties */
+  top: 4982px;
+  left: 826px;
+  width: 18px;
+  height: 18px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+}
+
+.image-grid-pic1:hover,
+.image-grid-pic2:hover,
+.image-grid-pic3:hover,
+.image-grid-pic4:hover,
+.image-grid-pic5:hover,
+.image-grid-pic6:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}

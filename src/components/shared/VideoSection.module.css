@@ -1,0 +1,147 @@
+.ocean {
+  top: 3767px;
+  left: 8%;
+  /* Layout Properties */
+  width: 1190px;
+  height: 670px;
+  /* UI Properties */
+  border-radius: 14px;
+  position: absolute;
+  z-index: 0;
+}
+
+.text-s8-h1 {
+  /* Layout Properties */
+  top: 4046px;
+  left: 410px;
+  width: 620px;
+  height: 44px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 900 36px/62px Chronicle Display;
+  letter-spacing: 0px;
+  color: #fffafa;
+  opacity: 1;
+  position: absolute;
+}
+
+.text-c7-h2 {
+  top: 3955px;
+  left: 542px;
+  width: 374px;
+  height: 20px;
+  font: normal normal normal 14px/62px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2.1px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.text-s8-h1 {
+  top: 4000px;
+  left: 410px;
+  width: 620px;
+  height: 44px;
+  font: normal normal 900 36px/62px Chronicle Display;
+  letter-spacing: 0px;
+  color: #fffafa;
+  opacity: 1;
+  position: absolute;
+}
+
+.text-c7-p {
+  top: 4065px;
+  left: 402px;
+  width: 636px;
+  height: 54px;
+  text-align: center;
+  font: normal normal normal 15px/28px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0px;
+  color: #fffafa;
+  opacity: 1;
+  position: absolute;
+}
+
+/* Styling for the button element */
+.button {
+  /* Layout Properties */
+  top: 4155px;
+  left: 635px;
+  width: 171px;
+  height: 52px;
+  position: relative; /* Position it relative to its normal position */
+  background-color: rgb(255, 255, 255); /* Background color */
+  border-radius: 6px; /* Rounded corners */
+  font-size: 16px; /* Font size */
+  color: white; /* Text color */
+  padding: 0.8em 1.8em; /* Padding inside the button */
+  cursor: pointer; /* Cursor style */
+  user-select: none; /* User cannot select the text */
+  text-align: center; /* Text alignment */
+  text-decoration: none; /* No underlines for links */
+  cursor: pointer; /* Cursor style (repeated) */
+  transition-duration: 0.4s; /* Transition duration for smooth effects */
+  -webkit-transition-duration: 0.4s; /* Safari-specific transition duration */
+  z-index: 10;
+
+  /* UI Properties */
+  text-align: center; /* Text alignment (repeated) */
+  font: normal normal 900 13px/30px Brandon Grotesque; /* Font styling */
+  font-family: "Cabin", sans-serif; /* Font family */
+  letter-spacing: 1.95px; /* Spacing between letters */
+  color: #004a4c; /* Text color */
+  text-transform: uppercase; /* Uppercase text */
+  opacity: 1; /* Opacity (fully opaque) */
+  position: absolute; /* Position it absolutely within its container */
+}
+
+.button:hover {
+  opacity: 0.8;
+  color: white; /* Text color */
+  background-color: #004a4c;
+}
+
+/* Styling for the button's hover effect */
+.button:after {
+  content: ""; /* Generated content after the button */
+  display: block; /* Block-level element */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  opacity: 0; /* Initial opacity (hidden) */
+  transition: all 0.5s; /* Transition effect for the hover effect */
+  box-shadow: 0 0 10px 40px #004a4c; /* Box shadow effect */
+}
+
+/* Styling for the button's active (clicked) state */
+.button:active:after {
+  box-shadow: 0 0 0 0 #004a4c; /* Remove box shadow when button is clicked */
+  position: absolute; /* Position it absolutely within the button */
+  border-radius: 6px; /* Rounded corners */
+  left: 0; /* Positioned from the left edge of the button */
+  top: 0; /* Positioned from the top edge of the button */
+  opacity: 1; /* Full opacity (visible) */
+  transition: 0s; /* No transition for the active state */
+}
+
+/* hashtag section */
+
+.hastag {
+  top: 4542px;
+  left: 583px;
+  width: 274px;
+  height: 44px;
+  text-align: left;
+  font: normal normal 900 36px/44px Chronicle Display;
+  letter-spacing: 0px;
+  color: #002d33;
+  opacity: 1;
+  position: absolute;
+}
+

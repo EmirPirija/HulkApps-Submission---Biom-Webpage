@@ -1,0 +1,264 @@
+.footer-shop {
+  /* Layout Properties */
+  top: 5451px;
+  left: 285px;
+  width: 42px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px/20px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.4px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer-why-biom {
+  /* Layout Properties */
+  top: 5451px;
+  left: 390px;
+  width: 89px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px/20px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.4px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer-scents {
+  /* Layout Properties */
+  top: 5451px;
+  left: 537px;
+  width: 58px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px/20px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.4px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer-logo-biom {
+  /* Layout Properties */
+  top: 5446px;
+  left: 674px;
+  width: 92px;
+  height: 30px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.footer-faqs {
+  /* Layout Properties */
+  top: 5451px;
+  left: 841px;
+  width: 40px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px/20px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.4px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer-account {
+  /* Layout Properties */
+  top: 5451px;
+  left: 944px;
+  width: 76px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px/20px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.4px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer-help {
+  /* Layout Properties */
+  top: 5451px;
+  left: 1085px;
+  width: 39px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 14px/20px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 1.4px;
+  color: #fffafa;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.footer-shop,
+.footer-why-biom,
+.footer-scents,
+.footer-faqs,
+.footer-account,
+.footer-help {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.footer-shop:hover,
+.footer-why-biom:hover,
+.footer-scents:hover,
+.footer-faqs:hover,
+.footer-account:hover,
+.footer-help:hover {
+  animation: pulse 1s infinite; /* Adjust animation duration and type as desired */
+}
+
+/* footer */
+
+.footer-rights {
+  top: 5570px;
+  left: 69px;
+  width: 480px;
+  height: 22px;
+  text-align: left;
+  font: normal normal normal 15px/22px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 0.38px;
+  color: #fffafa;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.bottom {
+  /* Layout Properties */
+  top: 5246px;
+  left: 0px;
+  width: 1440px;
+  height: 386px;
+  /* UI Properties */
+  background: #004a4c 0% 0% no-repeat padding-box;
+  opacity: 0.72;
+  position: absolute;
+}
+
+.footerline {
+  top: 5526px;
+  left: 69px;
+  width: 1302px;
+  height: 0px;
+  border: 1px solid #004a4c;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.wrapper-ig {
+  /* Layout Properties */
+  top: 5566px;
+  left: 1301px;
+  width: 30px;
+  height: 30px;
+  /* UI Properties */
+  border-radius: 20px;
+  background: #fffafa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.wrapper-fb {
+  top: 5566px;
+  left: 1341px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background: #fffafa 0% 0% no-repeat padding-box;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+}
+
+.icon-ig {
+  /* Layout Properties */
+  top: 5573px;
+  left: 1308px;
+  width: 16px;
+  height: 16px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 3;
+  position: absolute;
+
+  /* Add hover effect and change cursor */
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon-fb {
+  /* Layout Properties */
+  top: 5573px;
+  left: 1352px;
+  width: 9px;
+  height: 16px;
+  /* UI Properties */
+  background: transparent 0% 0% no-repeat padding-box;
+  opacity: 1;
+  z-index: 3;
+  position: absolute;
+
+  /* Add hover effect and change cursor */
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.icon-ig,
+.icon-fb {
+  opacity: 0.8;
+  transition: opacity 0.3s; /* Smooth fade effect on hover */
+}
+
+.icon-ig:hover,
+.icon-fb:hover {
+  animation: pulse 1s infinite; /* Adjust animation duration and type as desired */
+  opacity: 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

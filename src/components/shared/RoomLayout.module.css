@@ -1,0 +1,145 @@
+.officeh2 {
+  top: 1630px;
+  left: 621px;
+  width: 207px;
+  height: 23px;
+  text-align: center;
+  font: normal normal normal 16px/23px Brandon Grotesque;
+  font-family: "Cabin", sans-serif;
+  letter-spacing: 2.4px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  position: absolute;
+}
+
+.officeh1 {
+  /* Layout Properties */
+  top: 1654px;
+  left: 553px;
+  width: 336px;
+  height: 176px;
+  /* UI Properties */
+  text-align: center;
+  font: normal normal 900 78px/82px Chronicle Display;
+  letter-spacing: -0.78px;
+  color: #ffffff;
+  opacity: 1;
+  position: absolute;
+}
+
+.parentkitchen {
+  /* Layout Properties */
+  top: 1522px;
+  left: 1008px;
+  width: 535px;
+  height: 415px;
+  position: absolute;
+  /* UI Properties */
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.parentliving {
+  /* Layout Properties */
+  top: 1522px;
+  left: -102px;
+  width: 535px;
+  height: 415px;
+  position: absolute;
+  /* UI Properties */
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.parentoffice {
+  /* Layout Properties */
+  top: 1522px;
+  left: 453px;
+  width: 535px;
+  height: 415px;
+  position: absolute;
+  /* UI Properties */
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.livingroomtext{
+  /* Layout Properties */
+  top: 1915px;
+  left: 694px;
+  width: 54px;
+  height: 26px;
+  /* UI Properties */
+  font: normal normal bold 22px/48px Chronicle Display;
+  letter-spacing: 0px;
+  opacity: 0;
+  z-index: 2000; /* Ensure the text is above the image */
+  position: absolute;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.textOverlayLiving {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+  font: normal normal bold 22px/48px Chronicle Display;
+  letter-spacing: 0px;
+}
+
+.textOverlayOffice {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+  font: normal normal bold 22px/48px Chronicle Display;
+  letter-spacing: 0px;
+}
+
+.textOverlayKitchen {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  color: white;
+  font: normal normal bold 22px/48px Chronicle Display;
+  letter-spacing: 0px;
+}
+
+.imageContainer:hover .textOverlayLiving {
+  opacity: 1;
+}
+
+.imageContainer:hover .textOverlayKitchen {
+  opacity: 1;
+}
+
+.imageContainer:hover .textOverlayOffice {
+  opacity: 1;
+}
+
+.kitchenroom,
+.livingroom,
+.officeroom {
+  transform: scale(1); /* Initial scale */
+  transition: transform 0.5s ease-out; /* Add a smooth ease-out transition effect */
+}
+
+.kitchenroom:hover,
+.livingroom:hover,
+.officeroom:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+}
