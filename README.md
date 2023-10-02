@@ -40,7 +40,7 @@ Cross-browser compatibility
 3. Estimated Time to Complete the Test:
 The estimated time to complete this project was 5 days with approximately 4 hours each day and that was mainly dealing with the positioning of each and every image and text. This includes planning, design, coding, debugging, testing, and deployment.
 
-4. Known Issues:
+4. Known Issues and what I have planned to do:
 
 Instagram Button Disappearing on MacOS: There is a known issue where the Instagram button may disappear when hovering on MacOS.
 Limited Responsiveness: Currently, the webpage is not fully responsive and supports a minimum resolution of 1440x900. However, please note that improving responsiveness is on my development roadmap, and I intend to make the necessary adjustments to enhance the user experience on a variety of devices and screen sizes. I am ready to address this issue upon request if needed.
