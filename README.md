@@ -1,10 +1,12 @@
+#Webpage hosted by Netlify; https://web-biom.netlify.app/
+
 1. Tech Stack Used:
 
 React (version 18.2.0)
 HTML
 CSS (Sass version 1.68.0)
 JavaScript
-Netlify for hosting
+Netlify for hosting (link: https://web-biom.netlify.app/)
 
 2. Approach to the Project:
 I approached this project with a focus on simplicity and user experience, utilizing React (version 18.2.0) as the primary technology for building the webpage. I wanted to create a clean, responsive, and visually appealing webpage that effectively conveys the content and purpose. In addition to React, I used basic HTML for structuring the content, CSS for styling, and various JavaScript libraries and dependencies to enhance the functionality.
