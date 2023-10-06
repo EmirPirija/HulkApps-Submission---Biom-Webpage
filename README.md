@@ -1,5 +1,4 @@
-#Webpage hosted by Netlify; https://web-biom.netlify.app/ and is now live ready for review and critics.
-
+#Webpage hosted by Netlify; https://web-biom.netlify.app/
 1. Tech Stack Used:
 
 -React (version 18.2.0)
